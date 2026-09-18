@@ -1,0 +1,16 @@
+# 构建产物（编译出来的 app、图标、临时二进制）
+build/
+
+# macOS
+.DS_Store
+._*
+.Spotlight-V100
+.Trashes
+
+# 编译中间产物
+*.o
+*.dSYM/
+*.app/
+
+# 本地配置
+config.local.json
